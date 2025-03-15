@@ -1,0 +1,41 @@
+/* ButtonDownloadCV.css */
+.download-btn {
+  background-color: #3182ce;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  transition: background 0.3s ease-in-out;
+}
+
+.download-btn:hover {
+  background-color: #2b6cb0;
+  color: white;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 768px) {
+  .download-btn {
+    padding: 8px 16px;
+    font-size: 0.95rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .download-btn {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .download-btn {
+    padding: 6px 12px;
+    font-size: 0.85rem;
+  }
+}
